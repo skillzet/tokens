@@ -1,6 +1,6 @@
 {
-  "name": "@xxxx/tokens",
-  "version": "1.0.5",
+  "name": "@skillzet/tokens",
+  "version": "1.2.0",
   "description": "Design Tokens",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tokenizable/material-tokens.git"
+    "url": "git+https://github.com/skillzet/tokens.git"
   },
   "keywords": [
     "Design",
     "Tokens"
   ],
-  "author": "Tokenizable",
+  "author": "Skillz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tokenizable/material-tokens/issues"
+    "url": "https://github.com/skillzet/tokens/issues"
   },
-  "homepage": "https://github.com/tokenizable/material-tokens#readme"
+  "homepage": "https://github.com/skillzet/tokens#readme"
 }
