@@ -4,7 +4,13 @@
   "description": "Design Tokens",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transform": "npx token-transformer figma/figmaTokens.json figma/input.json",
+    "build": "npm run transform && npx style-dictionary build --config figma/configJs.json",
+    "build_css": "npm run transform && npx style-dictionary build --config figma/configCss.json",
+    "build_android": "",
+    "build_ios": ""
+
   },
   "repository": {
     "type": "git",
