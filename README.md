@@ -39,9 +39,14 @@ Note: get your unique access token from https://github.com/settings/tokens
 ### 2. Push changes to repo
 Inside FigmaTokens window, click on 'Push changes' , write a commit message and assign it to a branch with a customized name (it can be any name). Create a Pull Request, get that PR merged into main. 
 
-### 3. Create NPM content
+Then pull your changes into your local environment
+```
+git pull
+```
 
-The tokens sent by Figma will be in .json format, run the followign script to update the tokens in this repository
+### 3. Prepare for NPM
+
+The tokens sent by Figma need to be compiled in a format that can be used by NPM, run the followign script:
 ```
 npm run build
 
@@ -52,9 +57,9 @@ npm run build
 
 1. Bump Version
 ```
+//Be sure that all files are comitted in git
 npm version <versionNumber>
 ```
-or do it manually in the package.json file
 
 2. Publish to NPM
 ```
