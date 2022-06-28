@@ -1,6 +1,6 @@
 {
-  "regular-card": {
-    "value": "4px",
+  "baseRadius": {
+    "value": 8,
     "type": "borderRadius"
   },
   "primary": {
@@ -9,25 +9,25 @@
       "type": "color"
     },
     "main": {
-      "value": "#4890e8",
+      "value": "#6e7ae8",
       "type": "color",
       "description": "blue-500"
     },
     "light": {
-      "value": "#82c0ff",
+      "value": "#a3a9ff",
       "type": "color"
     },
     "dark": {
-      "value": "#0063b5",
+      "value": "#364eb5",
       "type": "color",
       "description": "Used for: hover buttons"
     },
     "background": {
-      "value": "#f1f8fe",
+      "value": "#f6f6fb",
       "type": "color"
     },
     "border": {
-      "value": "#9bcffc",
+      "value": "#6e7ae8",
       "type": "color",
       "description": "Used for: borders"
     }
@@ -38,35 +38,35 @@
       "type": "color"
     },
     "main": {
-      "value": "#6e7ae8",
+      "value": "#cd48e8",
       "type": "color"
     },
     "light": {
-      "value": "#a3a9ff",
+      "value": "#ff7dff",
       "type": "color"
     },
     "dark": {
-      "value": "#364eb5",
+      "value": "#9800b5",
       "type": "color"
     },
     "background": {
-      "value": "#f6f6fb",
+      "value": "#faf3fb",
       "type": "color"
     },
     "border": {
-      "value": "#c3c5f5",
+      "value": "#eab7f4",
       "type": "color",
       "description": "Used for: borders"
     }
   },
   "text": {
     "primary": {
-      "value": "#f7f7f8",
+      "value": "#2e323a",
       "type": "color",
       "description": "Text primary"
     },
     "secondary": {
-      "value": "#d4d7dd",
+      "value": "#717b8f",
       "type": "color",
       "description": "Text secondary"
     },
@@ -86,7 +86,7 @@
       "description": "Used for: buttons, anything that uses default"
     },
     "hover": {
-      "value": "#0000000a",
+      "value": "#00000066",
       "type": "color"
     },
     "selected": {
@@ -176,24 +176,24 @@
       "value": "#b0e765",
       "type": "color"
     },
-    "dark-text": {
-      "value": "#1e4620",
-      "type": "color"
-    },
     "light-bg": {
       "value": "#f8fbf3",
+      "type": "color"
+    },
+    "dark-text": {
+      "value": "#1e4620",
       "type": "color"
     }
   },
   "error": {
+    "main": {
+      "value": "#a43f23",
+      "type": "color",
+      "description": "red 500"
+    },
     "contrast-text": {
       "value": "#ffffff",
       "type": "color"
-    },
-    "main": {
-      "value": "#dd6952",
-      "type": "color",
-      "description": "red 500"
     },
     "light": {
       "value": "#ff997f",
@@ -302,7 +302,7 @@
   },
   "background": {
     "paper": {
-      "value": "#000000",
+      "value": "#ffffff",
       "type": "color"
     }
   },
@@ -334,56 +334,6 @@
     },
     "700": {
       "value": "#717b8f",
-      "type": "color"
-    }
-  },
-  "gradient": {
-    "brand gradient left right": {
-      "value": "linear-gradient(-90deg, #6e7be8 0%, #4890e8 100%)",
-      "type": "color"
-    },
-    "brand gradient top left bottom right": {
-      "value": "linear-gradient(-45deg, #6e7be8 0%, #4890e8 100%)",
-      "type": "color"
-    },
-    "success gradient top left bottom right": {
-      "value": "linear-gradient(-45deg, #73b534 0%, #4890e8 100%)",
-      "type": "color"
-    },
-    "success gradient left right": {
-      "value": "linear-gradient(-90deg, #73b534 0%, #4890e8 100%)",
-      "type": "color"
-    },
-    "error gradient top left bottom right": {
-      "value": "linear-gradient(-45deg, #cf705a 0%, #9b4231 100%)",
-      "type": "color"
-    },
-    "error gradient left right": {
-      "value": "linear-gradient(-90deg, #cf705a 0%, #9b4231 100%)",
-      "type": "color"
-    },
-    "brand-horizontal": {
-      "value": "linear-gradient(-90deg, #cd48e8 0%, #6e7ae8 100%)",
-      "type": "color"
-    },
-    "brand-diagonal": {
-      "value": "linear-gradient(-45deg, #cd48e8 0%, #6e7ae8 100%)",
-      "type": "color"
-    },
-    "success-diagonal": {
-      "value": "linear-gradient(-45deg, #7db534 0%, #4890e8  100%)",
-      "type": "color"
-    },
-    "success-horizontal": {
-      "value": "linear-gradient(-90deg, #7db534  0%, #4890e8  100%)",
-      "type": "color"
-    },
-    "error-diagonal": {
-      "value": "linear-gradient(-45deg, #dd6952  0%, #a43f23 100%)",
-      "type": "color"
-    },
-    "error-horizontal": {
-      "value": "linear-gradient(-90deg, #dd6952 0%, #a43f23 100%)",
       "type": "color"
     }
   },
@@ -1629,58 +1579,6 @@
       "type": "typography"
     }
   },
-  "baseSize": {
-    "value": 8,
-    "type": "spacing"
-  },
-  "0_5x": {
-    "value": 4,
-    "type": "spacing"
-  },
-  "1x": {
-    "value": 8,
-    "type": "spacing"
-  },
-  "2x": {
-    "value": 16,
-    "type": "spacing"
-  },
-  "3x": {
-    "value": 24,
-    "type": "spacing"
-  },
-  "4x": {
-    "value": 32,
-    "type": "spacing"
-  },
-  "5x": {
-    "value": 40,
-    "type": "spacing"
-  },
-  "6x": {
-    "value": 48,
-    "type": "spacing"
-  },
-  "7x": {
-    "value": 56,
-    "type": "spacing"
-  },
-  "8x": {
-    "value": 64,
-    "type": "spacing"
-  },
-  "9x": {
-    "value": 72,
-    "type": "spacing"
-  },
-  "10x": {
-    "value": 80,
-    "type": "spacing"
-  },
-  "baseRadius": {
-    "value": 8,
-    "type": "borderRadius"
-  },
   "global": {
     "black": {
       "value": "#000000",
@@ -2317,6 +2215,32 @@
       "type": "spacing"
     }
   },
+  "gradient": {
+    "brand-horizontal": {
+      "value": "linear-gradient(-90deg, #cd48e8 0%, #6e7ae8 100%)",
+      "type": "color"
+    },
+    "brand-diagonal": {
+      "value": "linear-gradient(-45deg, #cd48e8 0%, #6e7ae8 100%)",
+      "type": "color"
+    },
+    "success-diagonal": {
+      "value": "linear-gradient(-45deg, #7db534 0%, #4890e8  100%)",
+      "type": "color"
+    },
+    "success-horizontal": {
+      "value": "linear-gradient(-90deg, #7db534  0%, #4890e8  100%)",
+      "type": "color"
+    },
+    "error-diagonal": {
+      "value": "linear-gradient(-45deg, #dd6952  0%, #a43f23 100%)",
+      "type": "color"
+    },
+    "error-horizontal": {
+      "value": "linear-gradient(-90deg, #dd6952 0%, #a43f23 100%)",
+      "type": "color"
+    }
+  },
   "themeGrey": {
     "grey-25": {
       "value": "#fefefe",
@@ -2388,6 +2312,10 @@
       "value": 40,
       "type": "borderRadius"
     }
+  },
+  "baseSize": {
+    "value": 8,
+    "type": "sizing"
   },
   "size": {
     "1x": {
