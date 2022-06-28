@@ -1,6 +1,6 @@
 {
   "name": "@skillzet/tokens",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Design Tokens",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "build_css": "npm run transform && npx style-dictionary build --config figma/configCss.json",
     "build_android": "",
     "build_ios": ""
-
   },
   "repository": {
     "type": "git",
