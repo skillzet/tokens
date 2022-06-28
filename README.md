@@ -2,6 +2,24 @@
 
 This Tokens are originated in Figma and exported as code into this repository using the 'FigmaTokens' plugin. 
 
+## Using Tokens in other JS projects (React, Storybook, etc.)
+
+Install dependency
+```
+npm i @skillzet/tokens
+```
+Use inside a component:
+```
+import { colors } from "@skillzet/tokens";
+```
+```
+style={{backgroundColor:`${colors.red100}`}}
+```
+
+<br/>
+<hr/>
+<br/>
+
 ## Updating Tokens Step by Step
 
 ### 1. Figma Tokens
@@ -14,9 +32,8 @@ Repository: skillzet/tokens
 Default Branch: main
 FilePath: figma/figmaTokens.json
 
+
 Note: get your unique access token from https://github.com/settings/tokens
-
-
 ```
 
 ### 2. Push changes to repo
@@ -26,7 +43,8 @@ Inside FigmaTokens window, click on 'Push changes' , write a commit message and 
 
 The tokens sent by Figma will be in .json format, run the followign script to update the tokens in this repository
 ```
-TBD
+npm run build
+
 ```
 
 ### 4. Update NPM
@@ -45,23 +63,6 @@ npm publish --access public
 
 <br/><br/>
 <hr/>
-<br/><br/>
-
-## Using Tokens in other JS projects (React, Storybook, etc.)
-
-Install dependency
-```
-npm i @xxxx/tokens
-```
-Use inside a component:
-```
-import { colors } from "@skillzet/tokens";
-```
-```
-style={{backgroundColor:`${colors.red100}`}}
-```
-
-<hr/>
 
 <br/><br/>
 ## Contributing
@@ -69,21 +70,8 @@ style={{backgroundColor:`${colors.red100}`}}
 
 Clone code from repo:
 ```
-git clone git@github.com:gcid12/tokens.git
+git clone git@github.com:skillzet/tokens.git
 ```
-
-Updating:
-
-1. Bump Version
-```
-npm version <versionNumber>
-```
-
-2. Publish to NPM
-```
-npm publish --access public
-```
-
 
 
 <br/><br/>
