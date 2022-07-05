@@ -1,4 +1,12 @@
 {
+  "CoreSkillzet": {
+    "branded": {
+      "primary": {
+        "value": "#ff0000",
+        "type": "color"
+      }
+    }
+  },
   "global": {
     "baseRadius": {
       "value": "8",
@@ -2400,6 +2408,22 @@
       "90": {
         "value": "0.9",
         "type": "opacity"
+      }
+    }
+  },
+  "devex": {},
+  "px": {},
+  "website": {
+    "navigation": {
+      "bar": {
+        "value": "{branded.primary}",
+        "type": "color"
+      }
+    },
+    "branded": {
+      "primary": {
+        "value": "lime",
+        "type": "color"
       }
     }
   },
