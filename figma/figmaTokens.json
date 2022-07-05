@@ -2411,21 +2411,5 @@
       }
     }
   },
-  "devex": {},
-  "px": {},
-  "website": {
-    "navigation": {
-      "bar": {
-        "value": "{branded.primary}",
-        "type": "color"
-      }
-    },
-    "branded": {
-      "primary": {
-        "value": "lime",
-        "type": "color"
-      }
-    }
-  },
   "$themes": []
 }
