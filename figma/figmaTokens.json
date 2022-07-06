@@ -1,4 +1,12 @@
 {
+  "CoreSkillzet": {
+    "branded": {
+      "primary": {
+        "value": "#ff0000",
+        "type": "color"
+      }
+    }
+  },
   "global": {
     "baseRadius": {
       "value": "8",
@@ -10,9 +18,9 @@
         "type": "color"
       },
       "main": {
-        "value": "{global.brand1.default}",
+        "value": "#6E7BE8",
         "type": "color",
-        "description": "blue-500"
+        "description": "blue-600"
       },
       "light": {
         "value": "{global.brand1.light}",
