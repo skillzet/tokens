@@ -2,12 +2,13 @@
   "name": "@skillzet/tokens",
   "version": "1.2.2",
   "description": "Design Tokens",
-  "main": "index.js",
+  "main": "tokens/figma.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transform": "npx token-transformer figma/figmaTokens.json figma/input.json",
     "build": "npm run transform && npx style-dictionary build --config figma/configJs.json",
     "build_css": "npm run transform && npx style-dictionary build --config figma/configCss.json",
+    "build_json": "npm run transform && npx style-dictionary build --config figma/configJson.json",
     "build_android": "",
     "build_ios": ""
   },

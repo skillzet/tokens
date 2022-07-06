@@ -1,28 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jun 2022 21:45:42 GMT
+ * Generated on Tue, 28 Jun 2022 22:45:37 GMT
  */
 
 :root {
-  --regular-card: 4px;
+  --base-radius: 8;
   --primary-contrast-text: #ffffff;
-  --primary-main: #4890e8;
-  --primary-light: #82c0ff;
-  --primary-dark: #0063b5;
-  --primary-background: #f1f8fe;
-  --primary-border: #9bcffc;
+  --primary-main: #6e7ae8;
+  --primary-light: #a3a9ff;
+  --primary-dark: #364eb5;
+  --primary-background: #f6f6fb;
+  --primary-border: #6e7ae8;
   --secondary-contrast-text: #ffffff;
-  --secondary-main: #6e7ae8;
-  --secondary-light: #a3a9ff;
-  --secondary-dark: #364eb5;
-  --secondary-background: #f6f6fb;
-  --secondary-border: #c3c5f5;
-  --text-primary: #f7f7f8;
-  --text-secondary: #d4d7dd;
+  --secondary-main: #cd48e8;
+  --secondary-light: #ff7dff;
+  --secondary-dark: #9800b5;
+  --secondary-background: #faf3fb;
+  --secondary-border: #eab7f4;
+  --text-primary: #2e323a;
+  --text-secondary: #717b8f;
   --text-disabled: #00000061;
   --text-hint: #00000061;
   --action-main: #e0e0e0;
-  --action-hover: #0000000a;
+  --action-hover: #00000066;
   --action-selected: #00000014;
   --action-disabled-bg: #0000001f;
   --action-disabled: #00000042;
@@ -43,10 +43,10 @@
   --success-main: #7db534;
   --success-dark: #4c8500;
   --success-light: #b0e765;
-  --success-dark-text: #1e4620;
   --success-light-bg: #f8fbf3;
+  --success-dark-text: #1e4620;
+  --error-main: #a43f23;
   --error-contrast-text: #ffffff;
-  --error-main: #dd6952;
   --error-light: #ff997f;
   --error-dark: #a63a29;
   --error-dark-text: #621b16;
@@ -72,7 +72,7 @@
   --grey-grey-a200: #9e9e9e;
   --grey-grey-a400: #616161;
   --grey-grey-a700: #212121;
-  --background-paper: #000000;
+  --background-paper: #ffffff;
   --blue-grey-100: #f7f7f8;
   --blue-grey-200: #eeeff0;
   --blue-grey-300: #d4d7dd;
@@ -80,18 +80,6 @@
   --blue-grey-500: #9ca3b1;
   --blue-grey-600: #868fa0;
   --blue-grey-700: #717b8f;
-  --gradient-brand-gradient-left-right: linear-gradient(-90deg, #6e7be8 0%, #4890e8 100%);
-  --gradient-brand-gradient-top-left-bottom-right: linear-gradient(-45deg, #6e7be8 0%, #4890e8 100%);
-  --gradient-success-gradient-top-left-bottom-right: linear-gradient(-45deg, #73b534 0%, #4890e8 100%);
-  --gradient-success-gradient-left-right: linear-gradient(-90deg, #73b534 0%, #4890e8 100%);
-  --gradient-error-gradient-top-left-bottom-right: linear-gradient(-45deg, #cf705a 0%, #9b4231 100%);
-  --gradient-error-gradient-left-right: linear-gradient(-90deg, #cf705a 0%, #9b4231 100%);
-  --gradient-brand-horizontal: linear-gradient(-90deg, #cd48e8 0%, #6e7ae8 100%);
-  --gradient-brand-diagonal: linear-gradient(-45deg, #cd48e8 0%, #6e7ae8 100%);
-  --gradient-success-diagonal: linear-gradient(-45deg, #7db534 0%, #4890e8  100%);
-  --gradient-success-horizontal: linear-gradient(-90deg, #7db534  0%, #4890e8  100%);
-  --gradient-error-diagonal: linear-gradient(-45deg, #dd6952  0%, #a43f23 100%);
-  --gradient-error-horizontal: linear-gradient(-90deg, #dd6952 0%, #a43f23 100%);
   --elevation-1: [object Object],[object Object];
   --elevation-2: [object Object],[object Object];
   --elevation-3: [object Object],[object Object];
@@ -200,19 +188,6 @@
   --button-large: [object Object];
   --button-medium: [object Object];
   --button-small: [object Object];
-  --base-size: 8;
-  --0-5x: 4;
-  --1x: 8;
-  --2x: 16;
-  --3x: 24;
-  --4x: 32;
-  --5x: 40;
-  --6x: 48;
-  --7x: 56;
-  --8x: 64;
-  --9x: 72;
-  --10x: 80;
-  --base-radius: 8;
   --global-black: #000000;
   --global-white: #ffffff;
   --global-gray-25: #fefefe;
@@ -366,6 +341,12 @@
   --space-8x: 64;
   --space-9x: 72;
   --space-10x: 80;
+  --gradient-brand-horizontal: linear-gradient(-90deg, #cd48e8 0%, #6e7ae8 100%);
+  --gradient-brand-diagonal: linear-gradient(-45deg, #cd48e8 0%, #6e7ae8 100%);
+  --gradient-success-diagonal: linear-gradient(-45deg, #7db534 0%, #4890e8  100%);
+  --gradient-success-horizontal: linear-gradient(-90deg, #7db534  0%, #4890e8  100%);
+  --gradient-error-diagonal: linear-gradient(-45deg, #dd6952  0%, #a43f23 100%);
+  --gradient-error-horizontal: linear-gradient(-90deg, #dd6952 0%, #a43f23 100%);
   --theme-grey-grey-25: #fefefe;
   --theme-grey-grey-50: #fafafa;
   --theme-grey-grey-100: #f5f5f5;
@@ -383,6 +364,7 @@
   --radius-3x: 24;
   --radius-4x: 32;
   --radius-5x: 40;
+  --base-size: 8;
   --size-1x: 8rem;
   --size-2x: 16rem;
   --size-3x: 24rem;
