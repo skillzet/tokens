@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Jul 2022 17:21:09 GMT
+ * Generated on Wed, 06 Jul 2022 18:41:11 GMT
  */
 
 export const BaseRadius = 8;
 export const PrimaryContrastText = "#ffffff";
-export const PrimaryMain = "#6E7BE8";
+export const PrimaryMain = "#ff00ff";
 export const PrimaryLight = "#a3a9ff";
 export const PrimaryDark = "#364eb5";
 export const PrimaryBackground = "#f6f6fb";
