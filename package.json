@@ -2,7 +2,7 @@
   "name": "@skillzet/tokens",
   "version": "1.2.4",
   "description": "Design Tokens",
-  "main": "tokens/figma.js",
+  "main": "tokens/Figma.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transform": "npx token-transformer figma/figmaTokens.json figma/input.json",
