@@ -1,6 +1,6 @@
 {
   "name": "@skillzet/tokens",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Design Tokens",
   "main": "tokens/Figma.js",
   "scripts": {
