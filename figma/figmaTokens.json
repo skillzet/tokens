@@ -1,12 +1,4 @@
 {
-  "CoreSkillzet": {
-    "branded": {
-      "primary": {
-        "value": "#ff0000",
-        "type": "color"
-      }
-    }
-  },
   "global": {
     "baseRadius": {
       "value": "8",
