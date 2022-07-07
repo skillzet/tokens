@@ -1,5 +1,143 @@
 {
-  "global": {
+  "CoreSkillzet": {
+    "brand-primary": {
+      "red": {
+        "value": "#EA0449",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#0043ff",
+        "type": "color"
+      }
+    },
+    "brand-base": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#3a3a3a",
+        "type": "color"
+      },
+      "gray": {
+        "light": {
+          "value": "#f0f0f0",
+          "type": "color"
+        },
+        "mid": {
+          "value": "#d9d9d9",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#1d1d1d",
+          "type": "color"
+        }
+      }
+    },
+    "brand-secondary": {
+      "blue-team": {
+        "uplifting": {
+          "value": "#47DEBC",
+          "type": "color"
+        },
+        "clean": {
+          "value": "#BCFFEF",
+          "type": "color"
+        },
+        "safe": {
+          "value": "#3E00CD",
+          "type": "color"
+        },
+        "inclusive": {
+          "value": "#67047D",
+          "type": "color"
+        }
+      },
+      "red-team": {
+        "balanced": {
+          "value": "#A101A0",
+          "type": "color"
+        },
+        "dynamic": {
+          "value": "#FF00B5",
+          "type": "color"
+        },
+        "energetic": {
+          "value": "#EB006B",
+          "type": "color"
+        },
+        "optimistic": {
+          "value": "#FF6767",
+          "type": "color"
+        }
+      }
+    },
+    "brand-gradients": {
+      "achieve": {
+        "balanced-dynamic": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.balanced} 0%, {brand-secondary.red-team.dynamic} 100%)",
+          "type": "color"
+        },
+        "energetic-balanced": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.energetic} 0%, {brand-secondary.red-team.balanced} 100%)",
+          "type": "color"
+        },
+        "energetic-optimistic": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.energetic} 0%, {brand-secondary.red-team.optimistic} 100%)",
+          "type": "color"
+        },
+        "uplifting-clean": {
+          "value": "linear-gradient(180deg, {brand-secondary.blue-team.uplifting} 0%, {brand-secondary.blue-team.clean} 100%)",
+          "type": "color"
+        },
+        "safe-uplifting": {
+          "value": "linear-gradient(180deg, {brand-secondary.blue-team.safe} 0%, {brand-secondary.blue-team.uplifting} 100%)",
+          "type": "color"
+        },
+        "safe-inclusive": {
+          "value": "linear-gradient(180deg, {brand-secondary.blue-team.safe} 0%, {brand-secondary.blue-team.inclusive} 100%)",
+          "type": "color"
+        }
+      },
+      "compete": {
+        "safe-energetic": {
+          "value": "linear-gradient(180deg, {brand-secondary.blue-team.safe} 0%, {brand-secondary.red-team.energetic} 100%)",
+          "type": "color"
+        },
+        "dynamic-clean": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.dynamic} 0%, {brand-secondary.blue-team.clean} 100%)",
+          "type": "color"
+        },
+        "optimistic-inclusive": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.optimistic} 0%, {brand-secondary.blue-team.inclusive} 100%)",
+          "type": "color"
+        },
+        "balanced-uplifting": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.balanced} 0%, {brand-secondary.blue-team.uplifting} 100%)",
+          "type": "color"
+        },
+        "optimistic-clean": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.optimistic} 0%, {brand-secondary.blue-team.clean} 100%)",
+          "type": "color"
+        },
+        "dynamic-safe": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.dynamic} 0%, {brand-secondary.blue-team.safe} 100%)",
+          "type": "color"
+        }
+      }
+    },
+    "brand-fontFamily": {
+      "websafe": {
+        "value": "Helvetica Neue",
+        "type": "fontFamilies"
+      }
+    }
+  },
+  "DeveloperSkillzet-Clear": {
     "baseRadius": {
       "value": "8",
       "type": "borderRadius"
@@ -33,7 +171,7 @@
         "description": "Used for: borders"
       }
     },
-    "secondary": {
+    "brand-secondary": {
       "contrast-text": {
         "value": "{global.white}",
         "type": "color"
