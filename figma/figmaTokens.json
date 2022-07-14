@@ -135,6 +135,10 @@
         "value": "Helvetica Neue",
         "type": "fontFamilies"
       }
+    },
+    "test": {
+      "value": "#00ff00",
+      "type": "color"
     }
   },
   "DeveloperSkillzet-Clear": {
