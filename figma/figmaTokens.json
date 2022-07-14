@@ -171,7 +171,7 @@
         "description": "Used for: borders"
       }
     },
-    "brand-secondary": {
+    "secondary": {
       "contrast-text": {
         "value": "{global.white}",
         "type": "color"
