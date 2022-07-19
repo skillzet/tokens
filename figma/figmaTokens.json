@@ -108,8 +108,8 @@
           "value": "linear-gradient(180deg, {brand-secondary.blue-team.safe} 0%, {brand-secondary.red-team.energetic} 100%)",
           "type": "color"
         },
-        "dynamic-clean": {
-          "value": "linear-gradient(180deg, {brand-secondary.red-team.dynamic} 0%, {brand-secondary.blue-team.clean} 100%)",
+        "energetic-clean": {
+          "value": "linear-gradient(180deg, {brand-secondary.red-team.energetic} 0%, {brand-secondary.blue-team.clean} 100%)",
           "type": "color"
         },
         "optimistic-inclusive": {
@@ -135,10 +135,6 @@
         "value": "Helvetica Neue",
         "type": "fontFamilies"
       }
-    },
-    "test": {
-      "value": "#00ff00",
-      "type": "color"
     }
   },
   "DeveloperSkillzet-Clear": {
